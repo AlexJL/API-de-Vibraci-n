@@ -1,60 +1,99 @@
-body
-{
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    background: #1E252A;
-    color: white;
-    font-weight: 300;
+body{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	background: #1E252A;
+	color: white;
+	font-weight: 300;
 }
 
-h1
-{
-    font-size: 3em;
-    margin: 1em 0 0 0;
-        margin-bottom: 5px;
+h1{
+	font-size: 3em;
+	margin: 0;
 }
 
-a
-{
-    color: white;
-    text-decoration: none;
+h2{
+	font-size: 2em;
+	margin: 0;
+	border: 2px solid white;
+	padding: 0.5em;
+	display: inline-block;
 }
 
-h2
-{
-    font-size: 2em;
-    margin: 0;
-    border: 2px solid white;
-    padding: 0.5em;
-    display: inline-block;
+a{
+	color: white;
+	text-decoration: none;
 }
 
-.buttons
-{
-    padding: 1em;
-    display: -webkit-flex;
-    -webkit-justify-content: space-around;
-    -webkit-flex-wrap: wrap;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.recuerda{
+	display: none;
 }
 
-.footer {
-    font-size: 1.2em;
-    color: #F43E4D;
+.buttons{
+	padding: 1em;
+	display: -webkit-flex;
+	-webkit-justify-content: space-around;
+	-webkit-flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
-.btn
-{
-    background: #52CBE1;
-    border: 2px solid white;
-    padding: 1em 2em;
-    font-size: 1.1em;
-    margin: 0 0 0.5em 0;
-    transition: 0.3s;
-    color: black;
-    font-weight: 300;
-    text-decoration: none;
-    width: 100%;
+.btn{
+	background: #52CBE1;
+	border: 2px solid white;
+	padding: 1em 2em;
+	font-size: 1.1em;
+	margin: 0 0 0.5em 0;
+	transition: 0.3s;
+	color: black;
+	font-weight: 300;
+	text-decoration: none;
+	width: 100%;
+}
+
+.btn:hover{
+	transform: scale(1.1);
+}
+
+.footer{
+	font-size: 1.2em;
+	color: #F43E4D;
+}
+
+.footer .article{
+	margin: 0 0 1em 0;
+	display: inline-block;
+}
+
+.social .icon{
+	font-size: 2em;
+}
+
+.info{
+	margin: 1em 0 0 0;
+}
+
+.info .fa-heart{
+	margin: 0 0.7em;
+}
+
+
+
+@media all and (min-width: 769px){
+
+	h1{
+		font-size: 4em;
+		margin: 1em 0 0 0;
+	}
+
+	.btn{
+		width: 40%;
+		margin: 0 0.5em 1em 0;
+	}
+}
+
+@media all and (min-width: 1080px){
+	.recuerda{
+		display: block;
+	}
 }
