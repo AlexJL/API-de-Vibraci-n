@@ -1,7 +1,7 @@
 body{
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-	background: #1E252A;
+	background: #296fb7;
 	color: white;
 	font-weight: 300;
 }
@@ -39,13 +39,13 @@ a{
 }
 
 .btn{
-	background: #52CBE1;
+	background: #009688;
 	border: 2px solid white;
 	padding: 1em 2em;
 	font-size: 1.1em;
 	margin: 0 0 0.5em 0;
 	transition: 0.3s;
-	color: black;
+	color: white;
 	font-weight: 300;
 	text-decoration: none;
 	width: 100%;
